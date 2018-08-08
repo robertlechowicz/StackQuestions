@@ -10,7 +10,7 @@ import UIKit
 
 class AnswerNetworking: BaseNetworking {
 
-    func getQuestion(id: Int64, completion: @escaping QueryResultCallback) {
+    func getAnswer(id: Int64, completion: @escaping QueryResultCallback) {
 
         let params = [
             "order": "desc",

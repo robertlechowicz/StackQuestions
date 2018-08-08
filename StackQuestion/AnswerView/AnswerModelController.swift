@@ -14,7 +14,7 @@ class AnswerModelController: NSObject {
 
     func fetchAnswer(id: Int64, completion: @escaping (QueryResult<Answer?>) -> Void) {
 
-        networking.getQuestion(id: id) { result in
+        networking.getAnswer(id: id) { result in
             switch result {
             case .success(let data):
                 let answer = JsonParser.parseAnswer(data: data)
