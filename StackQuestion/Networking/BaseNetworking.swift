@@ -14,6 +14,8 @@ struct Endpoints {
     static let answers = "answers/"
 }
 
+typealias QueryResultCallback = (QueryResult<Data>) -> Void
+
 enum QueryResult<T> {
     case success(T)
     case error(Error)
@@ -23,7 +25,7 @@ class BaseNetworking {
     let defaultSession = URLSession(configuration: .default)
     var dataTask: URLSessionDataTask?
 
-    func performRequest(url: URL, completion: @escaping (QueryResult<Data>) -> Void) {
+    func performRequest(url: URL, completion: @escaping QueryResultCallback) {
         dataTask?.cancel()
         dataTask = defaultSession.dataTask(with: url, completionHandler: { (data, response, error) in
 

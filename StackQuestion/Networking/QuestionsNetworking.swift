@@ -10,7 +10,7 @@ import Foundation
 
 class QuestionsNetworking: BaseNetworking {
 
-    func getQuestions(question: String, completion: @escaping (QueryResult<Data>) -> Void) {
+    func getQuestions(question: String, completion: @escaping QueryResultCallback) {
 
         let params = [
             "order": "desc",
