@@ -1,0 +1,24 @@
+PODS:
+  - PKHUD (5.1.0)
+  - SnapKit (4.0.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - PKHUD
+  - SnapKit (~> 4.0.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PKHUD
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  PKHUD: 62ea46a1e88c4def1da784878d199bb54c841e3c
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 205fe8792d83a9e80c313d4903543a3b126afad1
+
+COCOAPODS: 1.5.2
