@@ -39,7 +39,7 @@ class QuestionView: UIView {
             creationDateLabel.text = viewModel.creationDate
             lastActivityDateLabel.text = viewModel.lastActivityDate
             ownerNameLabel.text = viewModel.ownerName
-            bodyLabel.attributedText = viewModel.body.htmlToAttributedString
+            insertAttributtedText(viewModel.body, to: bodyLabel)
         }
     }
 

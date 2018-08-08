@@ -31,6 +31,7 @@
 		107D99DE2119BDD300FB1BB7 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107D99DD2119BDD300FB1BB7 /* UIViewController.swift */; };
 		107D99E02119C60900FB1BB7 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107D99DF2119C60900FB1BB7 /* QuestionViewModel.swift */; };
 		107D99E22119C66E00FB1BB7 /* AnswerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107D99E12119C66E00FB1BB7 /* AnswerViewModel.swift */; };
+		1089DEC0211B20400018C851 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089DEBF211B20400018C851 /* UIView.swift */; };
 		10BC8C73211832450030AB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BC8C72211832450030AB3E /* AppDelegate.swift */; };
 		10BC8C7A211832470030AB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BC8C79211832470030AB3E /* Assets.xcassets */; };
 		10BC8C7D211832470030AB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BC8C7B211832470030AB3E /* LaunchScreen.storyboard */; };
@@ -64,6 +65,7 @@
 		107D99DD2119BDD300FB1BB7 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		107D99DF2119C60900FB1BB7 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
 		107D99E12119C66E00FB1BB7 /* AnswerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewModel.swift; sourceTree = "<group>"; };
+		1089DEBF211B20400018C851 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		10BC8C6F211832450030AB3E /* StackQuestion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackQuestion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BC8C72211832450030AB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10BC8C79211832470030AB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				107D99CD2119A19200FB1BB7 /* String.swift */,
 				107D99CB2119874300FB1BB7 /* Date.swift */,
 				107D99DD2119BDD300FB1BB7 /* UIViewController.swift */,
+				1089DEBF211B20400018C851 /* UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				107D99D92119B6FD00FB1BB7 /* AnswerModelController.swift in Sources */,
 				107D99D72119B62100FB1BB7 /* AnswerNetworking.swift in Sources */,
 				107D99D12119A29100FB1BB7 /* AnswerViewController.swift in Sources */,
+				1089DEC0211B20400018C851 /* UIView.swift in Sources */,
 				107D99C521188C0900FB1BB7 /* QuestionViewController.swift in Sources */,
 				10BC8C73211832450030AB3E /* AppDelegate.swift in Sources */,
 				107D99AC21184FE400FB1BB7 /* UIColor.swift in Sources */,

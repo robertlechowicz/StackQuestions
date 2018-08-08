@@ -16,7 +16,7 @@ class AnswerView: UIView {
 
     var viewModel = AnswerViewModel() {
         didSet {
-            bodyLabel.attributedText = viewModel.body.htmlToAttributedString
+            insertAttributtedText(viewModel.body, to: bodyLabel)
             scoreLabel.text = viewModel.score
             ownerNameLabel.text = viewModel.ownerName
         }
